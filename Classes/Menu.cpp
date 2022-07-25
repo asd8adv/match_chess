@@ -12,7 +12,7 @@ GameMenu::GameMenu(std::shared_ptr<GameMain> game) :game_(game) {
 			game_->startGame();
 		});
 
-	myLabel_ = cocos2d::Label::createWithTTF("GAME OVER", "Comic_Mono/ComicMono.ttf", 72);
+	myLabel_ = cocos2d::Label::createWithTTF("GAME OVER", "fonts/Comic_Mono/ComicMono.ttf", 72);
 	myLabel_->setTextColor(cocos2d::Color4B::RED);
 	myLabel_->setPosition(-600, 0);
 	myLabel_->setVisible(0);

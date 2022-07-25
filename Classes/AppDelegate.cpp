@@ -18,7 +18,7 @@ static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
 
 AppDelegate::AppDelegate()
 {
-	FileUtils::getInstance()->addSearchPath("D:/Dev/match3/resources/");
+	FileUtils::getInstance()->addSearchPath("Resources");
 }
 
 AppDelegate::~AppDelegate() 
